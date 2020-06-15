@@ -3,13 +3,16 @@
 ## Repo Link
 - <Attach github link here>
 
+## Project Idea/Misson
+- Brief summary of your project.
+
 ## Domain
 | Model 1 | Join | Model 2  |
 | ---- | ---- | ----- |
-| name: string  | house_id | name   |
+| name: string     | house_id    | name    |
 | hometown:string  | sorting_id  | ghost   |
-| age:integer  | | motto   |
-| points:integer   | |   |
+| age:integer      |             | motto   |
+| points:integer   |             |         |
 
 ## User Story ( At least 4)
 1. Create
