@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_06_15_024248) do
     t.integer "points", default: 150
   end
 
-  create_table "houses_students", id: false, force: :cascade do |t|
+  create_table "sortings", id: false, force: :cascade do |t|
     t.integer "house_id", null: false
     t.integer "student_id", null: false
   end

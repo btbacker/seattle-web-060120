@@ -1,3 +1,7 @@
+House.destroy_all
+Sorting.destroy_all
+Student.destroy_all
+
 ravenclaw = House.create(name: "Ravenclaw",
   house_ghost: "The Grey Lady",
    motto: "Or yet in wise old Ravenclaw, If you've a ready mind, Where those of wit and learning, Will always find their kind",
