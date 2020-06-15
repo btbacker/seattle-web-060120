@@ -1,45 +1,22 @@
-# SWBATs
-- Review ORMs
-- Build out some CRUD methods for ORM
-- Distinguish between schema methods and data methods
-- Work on a couple association methods
+# Mod 1 Project Outline
 
-# SQL Notes
-```SQL
-CREATE - 
-1. CREATE TABLE ...
-2. INSERT INTO ...
-READ :
-1. SELECT * FROM table ...
-2. SELECT * FROM table WHERE <column> == <value>
-UPDATE - 
-1. UPDATE table SET <column> = <value> WHERE <col> = <val>
-2. ALTER table (add, remove, rename column)
-DELETE - 
-1. DELETE FROM table WHERE <col> == <val>
-2. DROP TABLE <tablename>
-INNER JOIN - 
-SELECT * FROM <table1>
-INNER JOIN <table2>
-ON <table1.column> == <table2.column>
-```
+## Repo Link
+- <Attach github link here>
 
-# Object Relational Mapping
-- Table -> Class
-- Columns -> attributes
-- Rows -> instances
+## Domain
+| Model 1 | Join | Model 2  |
+| ---- | ---- | ----- |
+| name: string  | house_id | name   |
+| hometown:string  | sorting_id  | ghost   |
+| age:integer  | | motto   |
+| points:integer   | |   |
 
-```Ruby
-ActiveRecord::Base.establish_connection(
-  adapter: 'sqlite3',
-  database: "music.db"
-)
-```
+## User Story ( At least 4)
+1. Create
+2. Read
+3. Update
+4. Delete
 
-1. Install activerecord && sinatra-activerecord gem
-2. bundle
-3. Establish connection with DB
-4. Add rake tasks to Rakefile
-5. Create some migrations
-6. `rake db:create_migration` -> create table
-7. Wrote out change method -> create_table
+## Stretch Goals
+-
+-
